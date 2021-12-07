@@ -29,4 +29,4 @@ http.createServer((req,res)=> {
     }
 
 res.end();
-    }).listen(8080, () => {console.log('server started ta 8080')});
+    }).listen(process.env.PORT, () => {console.log('server started ta 8080')});
